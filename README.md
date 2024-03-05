@@ -47,7 +47,7 @@ The template file is in: templates/admin/index.html
 
 ### 2. Standard methods:
 
-#### 2.a How a view model generated in Django admin:
+#### 2.a How a view model is generated in Django admin:
 
 This is not customization, but the standard "usage of Django admin+unfold model, and auto-generated-views" as following:
 
