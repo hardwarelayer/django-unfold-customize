@@ -45,9 +45,11 @@ This use the admin:index method in settings.py
 
 The template file is in: templates/admin/index.html
 
-### 2. Standard model:
+### 2. Standard methods:
 
-This is not customize, but the standard way of usage of Django admin+unfold model and auto-generated-views is as following:
+#### 2.a How a view model generated in Django admin:
+
+This is not customization, but the standard "usage of Django admin+unfold model, and auto-generated-views" as following:
 
 ![Base menu image.](/guide/tien_img2.png)
 
@@ -99,9 +101,9 @@ Use that "constructor" model in settings.py:
 
 This "admin" will create the view automatically for the model "constructor". Then it will bind to SIDEBAR.
 
-### 3. Proxy model:
+#### 2.b. Proxy model:
 
-I use a proxy model for registering one model repeatedly in admin.py
+Because we can be very flexible in using model or not. I use a "place holding model" as proxy model for repeatedly use it in admin.py
 
 The Dummy1 model is actually proxy of Constructor model.
 
