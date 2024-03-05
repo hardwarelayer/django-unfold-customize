@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.coverage
+*.pyc
+__pycache__
+venv
+node_modules
+dist/
+.env
+fly.toml
+.vscode
+Dockerfile
+src/static
+src/media
+requirements.txt
+.dockerignore
+database.sqlite

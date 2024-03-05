@@ -1,0 +1,23 @@
+[
+  {
+    "model": "formula.constructor",
+    "pk": 1,
+    "fields": {
+      "name": "Red Bull Racing Honda RBPT"
+    }
+  },
+  {
+    "model": "formula.constructor",
+    "pk": 2,
+    "fields": {
+      "name": "Aston Martin Aramco Mercedes"
+    }
+  },
+  {
+    "model": "formula.constructor",
+    "pk": 33,
+    "fields": {
+      "name": "Toro Rosso"
+    }
+  }
+]
